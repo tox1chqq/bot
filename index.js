@@ -1,5 +1,5 @@
 import TelegramBot from "node-telegram-bot-api";
-import { countries, description, wallet } from "./constants.js";
+import {countries, description, NAMES, wallet} from "./constants.js";
 import {toTwoDimensionalArray} from "./helpers.js";
 
 const TOKEN = '7097038338:AAF6cFvhqDuggzm78YX-_uqJxEJTpo6zin0'
@@ -59,7 +59,7 @@ bot.on('callback_query', async (msg) => {
                 });
         case "wallet":
             const str = `${sp[1]}_${sp[2]}`
-            return await bot.sendMessage(id, description[str],
+            return await bot.sendMessage(id, `Описание: \n ${description[str]} \n \n Неофициальное название: \n ${NAMES[sp[1]]}`,
                 {
                     reply_markup: {
                         inline_keyboard: [
