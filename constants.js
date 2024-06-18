@@ -447,7 +447,7 @@ export const description = {
         '4. Защитные волокна: красные и синие волокна, видимы на свету\n' +
         '5. Чернила, меняющие цвет: число 200 меняет цвет с зеленого на синий при движении банкноты\n' +
         '\t\t\t\t',
-    PARAGUAY_50:'1.        El método de impresión intaglio: proporciona una impresión en relieve que es detectable al tacto; \n' +
+    PARAGUAY_50000:'1.        El método de impresión intaglio: proporciona una impresión en relieve que es detectable al tacto; \n' +
         '2.        Marca de agua: a contraluz aparecen el retrato de Augustín Pío Barrios y el texto «50MIL»; \n' +
         '3.        Registro perfecto: al mirar a contraluz la imagen frontal de la guitarra se completa perfectamente; \n' +
         '4.        Hilo de seguridad: a contraluz aparecen repeticiones de «50MIL» y de estrellas, al girar cambia de color verde a rojo; \n' +
@@ -458,7 +458,7 @@ export const description = {
         '4.        Защитная нить: против света появляются повторения «50MIL» и звезды, при повороте меняет цвет с зеленого на красный; \n' +
         '5.        Краска, оптически изменяемая: при повороте купюры меняется с зеленого на голубой; \n' +
         '\t\t\t\t',
-    PARAGUAY_100:'1.        El método de impresión intaglio: proporciona una impresión en relieve que es detectable al tacto; \n' +
+    PARAGUAY_100000:'1.        El método de impresión intaglio: proporciona una impresión en relieve que es detectable al tacto; \n' +
         '2.        Marca de agua: a contraluz aparecen el retrato de San Roque González de Santacruz y el texto «100MIL»; \n' +
         '3.        Registro perfecto: al mirar a contraluz la imagen frontal del léon y el gorro frigio se completa perfectamente; \n' +
         '4.        Hilo de seguridad: a contraluz aparecen repeticiones de «100MIL» y de estrellas, al girar cambia de color verde a rojo; \n' +
