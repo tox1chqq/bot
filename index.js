@@ -15,7 +15,7 @@ bot.on('message', async (msg) => {
     try {
         switch (text){
             case '/start':
-                return await bot.sendMessage(id, 'Привет! Я бот, который нужен для защиты диплома',
+                return await bot.sendMessage(id, 'Привет, я - бот, где собраны меры защиты денежных купюр и неофициальные названия денежных средств',
                     {
                         reply_markup: {
                             inline_keyboard: [
@@ -43,7 +43,7 @@ bot.on('callback_query', async (msg) => {
     switch (sp[0]){
         case 'show':
             return await bot.sendMessage(id, `Список стран: ${countries.map((item, inx) => `\n${inx + 1 + '. ' + item.text}`).join('')}
-            \n\nВыберете страну, что посмотреть списко доступных купюр в этой стране`,
+            \n\nВыберете страну, что посмотреть список доступных купюр в этой стране`,
                 {
                     reply_markup: {
                         inline_keyboard:toTwoDimensionalArray(countries, 5, 4)
@@ -59,7 +59,7 @@ bot.on('callback_query', async (msg) => {
                 });
         case "wallet":
             const str = `${sp[1]}_${sp[2]}`
-            return await bot.sendMessage(id, `Описание: \n ${description[str]} \n \n Неофициальное название: \n ${NAMES[sp[1]]}`,
+            return await bot.sendMessage(id, `Описание: \n ${description[str]} \n \n Неофициальные названия: \n ${NAMES[sp[1]]}`,
                 {
                     reply_markup: {
                         inline_keyboard: [

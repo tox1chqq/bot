@@ -685,10 +685,7 @@ export const description = {
         '2.Защитная нить : против света можно увидеть изображение точки и символ евро\n' +
         '3.Голографическое изображение: при движении (наклоне) можно увидеть евро и номинал, меняющий цвет с изумрудно-Зеленого на темно-синий\n' +
         '\t\t\t\t',
-    ESPAÑA_50:'50 euros color : rojo anaranjado\n' +
-        'Anverso : el retrato de la mitología griega\n' +
-        'Reverso : una arquitectura con arcas y columnas del antiguo Monasterio Real de Santa Maria de Guadalupe, España\n' +
-        'Medidas de Seguridad:\n' +
+    ESPAÑA_50:'Medidas de Seguridad:\n' +
         '1. hilo de seguridad - es un hilo brillante incrustado en el papel que al moverlo forma la cifra del valor nominal «50» y el símbolo del euro\n' +
         '2. Tinta que cambia el color : en el número grande del valor nominal «50» en la esquina inferior derecha, la tinta cambia de color púrpura a verde oliva al mover el billete\n' +
         '3. Microimpresiones : con una lupa se puede ver pequeñas líneas, puntos y el texto «ВСЕ ЕСВ ЕZВ ЕКТ ЕКР» impresos en diferentes partes del billete\n' +
@@ -835,7 +832,7 @@ export const description = {
         '7.        Номинал сто по шрифту Брайля в нижней части по центру; \n' +
         '8.        Полосы: по бокам от лица с геометрическими фигурами. \n' +
         '\t\t\t\t',
-    COSTARICA10000:'1.        Se sienta el relieve en el retrato , el valor y los puntos para la persona con discapacidad visual;\n' +
+    COSTARICA_10000:'1.        Se sienta el relieve en el retrato , el valor y los puntos para la persona con discapacidad visual;\n' +
         '2.        Mire los efectos en el escudo nacional;\n' +
         '3.        El relieve en el número;\n' +
         '4.        El cambio en el texto BCCR por el valor del billete;\n' +
@@ -848,7 +845,7 @@ export const description = {
         '4.        Изменение в тексте BCCR на значение наминала купюры;\n' +
         '5.        На карте страны – плавающий круг, он меняет цвет с зеленого на синий.\n' +
         '6.        На реверсе – эффект разноцветности.\t\t\t\t',
-    COSTARICA20000: '1.        Se sienta el relieve en el retrato , el valor y los puntos para la persona con discapacidad visual;\n' +
+    COSTARICA_20000: '1.        Se sienta el relieve en el retrato , el valor y los puntos para la persona con discapacidad visual;\n' +
         '2.        Mire los efectos en el escudo nacional;\n' +
         '3.        El relieve en el número;\n' +
         '4.        El cambio en el texto BCCR por el valor del billete;\n' +
@@ -861,7 +858,7 @@ export const description = {
         '4.        Изменение в тексте BCCR на значение наминала купюры;\n' +
         '5.        На карте страны – плавающий круг, он меняет цвет с зеленого на синий.\n' +
         '6.        На реверсе – эффект разноцветности.\t\t\t\t',
-    CUBA500:'1.        La marca de agua de Ignacio Agramonte;\n' +
+    CUBA_500:'1.        La marca de agua de Ignacio Agramonte;\n' +
         '2.        Otra marca de agua que afirma su valor «500»;\n' +
         '3.        Imagen latente de color verde con el valor del billete;\n' +
         '4.        Sigla BBC formada por el mecrotexto «Banco Central de Cuba»;\n' +
@@ -874,7 +871,7 @@ export const description = {
         '4.        Акроним BBC, образованный микротекстом «Banco Central de Cuba»;\n' +
         '5.        Окантовочная лента с номиналом купюры;\n' +
         '6.        Микротексты внутри цифр и букв;\t\t\t\t',
-    CUBA1000:'1.        La marca de agua de Julio Antonio Mella;\n' +
+    CUBA_1000:'1.        La marca de agua de Julio Antonio Mella;\n' +
         '2.        La marca de agua que afirma su valor «1000»;\n' +
         '3.        Imagen latente de color rojo con el valor del billete;\n' +
         '4.        Sigla BBC formada por el microtexto «Banco Central de Cuba»;\n' +
@@ -890,27 +887,27 @@ export const description = {
 }
 
 export const NAMES = {
-    'ARGENTINA':'• деньги вообще: morlacos – единая валюта; guitar – вульгарный способ обозначения денег;  • количество денег: lana – “tener mucha lana” синоним хорошего экономического положения человека;  • номиналы денежных единиц (а также указание на крупную или мелкую купюру): plata – мелкие купюры. ',
-    'BOLIVIA':'• деньги вообще: plata, mango – песо в целом – использовалось на территории Боливии в виде основной валюты;  • форма денег: plata – монеты, купюры, guitarra – обозначение монеты в Боливии;  • количество денег: lana – “tener mucha lana” синоним хорошего экономического положения человека; quivo – большое количество денег;  •  номиналы денежных единиц (а также указание на крупную или мелкую купюру): plata – банкноты с низким номиналом, «мелкие деньги»; luca - эквивалент 1000 песо (использовали до появления боливиано). ',
+    'ARGENTINA':'• деньги вообще: morlacos – единая валюта; guitar – вульгарный способ обозначения денег;\n  • количество денег: lana – “tener mucha lana” синоним хорошего экономического положения человека;\n  • номиналы денежных единиц (а также указание на крупную или мелкую купюру): plata – мелкие купюры. ',
+    'BOLIVIA':'• деньги вообще: plata, mango – песо в целом – использовалось на территории Боливии в виде основной валюты;\n  • форма денег: plata – монеты, купюры, guitarra – обозначение монеты в Боливии;\n  • количество денег: lana – “tener mucha lana” синоним хорошего экономического положения человека; quivo – большое количество денег;\n  •  номиналы денежных единиц (а также указание на крупную или мелкую купюру): plata – банкноты с низким номиналом, «мелкие деньги»; luca - эквивалент 1000 песо (использовали до появления боливиано). ',
     'CHILE':'•форма денег: billullo – деньги в купюрах/банкнота; \n' +
         '•        количество денег: chaucha - небольшая сумма денег; \n' +
         '•        номиналы денежных единиц (а также указание на крупную или мелкую купюру): luca - 1000 песо; chaucha - монета из серебра в 20 сентаво.',
-    'COLOMBIA':'• деньги вообще: plata, billuyo;  •  форма денег: billuyo – иногда используется для замены слова «банкнота», произошло от слова «billetera» (бумажник); •  количество денег: marmaja - большое количество денег, laguaca -  «спрятанное сокровище», обозначение тайника или копилки на «черный день»; •  номиналы денежных единиц (а также указание на крупную или мелкую купюру): lucas – в далекие времена путешественники привозили сверкающие монеты с изображением королей, которые носили роскошные костюмы и парики (pelucas – слово, обозначающее их прически), а lucas – сокращение от него – сейчас 1000 песо. ',
-    'COSTARICA':'• деньги вообще: tuco; •  количество денег: tener harina – иметь деньги; •        номиналы денежных единиц (а также указание на крупную или мелкую купюру): plata – свободные деньги или мелкие купюры. ',
-    'CUBA':'• деньги вообще: guaniquiqui, astilla; •  количество денег: melón – крупная сумма денег;  • номиналы денежных единиц (а также указание на крупную или мелкую купюру): melón – миллион песо, chavos – монета стоимостью одна сотая песо. ',
+    'COLOMBIA':'• деньги вообще: plata, billuyo;\n  •  форма денег: billuyo – иногда используется для замены слова «банкнота», произошло от слова «billetera» (бумажник);\n •  количество денег: marmaja - большое количество денег, laguaca -  «спрятанное сокровище», обозначение тайника или копилки на «черный день»;\n •  номиналы денежных единиц (а также указание на крупную или мелкую купюру): lucas – в далекие времена путешественники привозили сверкающие монеты с изображением королей, которые носили роскошные костюмы и парики (pelucas – слово, обозначающее их прически), а lucas – сокращение от него – сейчас 1000 песо. ',
+    'COSTARICA':'• деньги вообще: tuco;\n •  количество денег: tener harina – иметь деньги;\n •  номиналы денежных единиц (а также указание на крупную или мелкую купюру): plata – свободные деньги или мелкие купюры. ',
+    'CUBA':'• деньги вообще: guaniquiqui, astilla;\n •  количество денег: melón – крупная сумма денег;\n  • номиналы денежных единиц (а также указание на крупную или мелкую купюру): melón – миллион песо, chavos – монета стоимостью одна сотая песо. ',
     'ECUADOR':'• деньги вообще: plata, cushqui (enlasierra – в горной местности) - «деньги» на языке кичуа, вариации которого распространены в Эквадоре, Колумбии и Перу, quiso (используется на побережье); \n' +
         '• номиналы денежных единиц (а также указание на крупную или мелкую купюру): sota - банкнота в 10 долларов, gamba – банкнота в 100 долларов; media gamba – банкнота в 50 долларов, lata – монета в один доллар, quina - банкнота в 5 долларов.',
-    'ESPAÑA':'•  деньги вообще: billete, duro/duros, cuartos / quartos, jurdel, lucas, moni / monis / monís, parné, pasta, pavos, pelas, pelucas, peluconas, perra / perras, plata, tela, verde;   •  форма денег: billete, cash , chatarra, efectivo, moneda, parné , pasta, pasta gansa, pavos , pelas , pelucas, peluconas, perra / perras,  perra chica/ perra gorda, plata, real, tela, verde;   • количество денег: bloque, calderilla, chatarra, feria, jurdel, kilo / kilos, pasta, pasta gansa, tela, verde; • номиналы денежных единиц (а также указание на крупную или мелкую купюру): calderilla, canario, chatarra, duro/duros, feria, jurdel, kilo / kilos, lucas, moneda, pelas, pelucas, peluconas, perra / perras, perra chica/ perra gorda, real.',
-    'GUATEMALA':'• деньги вообще: pisto, papa;  • форма денег: pisto - используется для обозначения банковских карт; •  количество денег: papa - имущество, состояние. ',
-    'HONDURAS':'• деньги вообще: pisto/pistillo, marmaja, dinerito, biyuyo; •  форма денег: marmaja – монеты, billete – банковская купюра;  • количество денег: luz – деньги, что облегчают решение дел; dinerito – уменьшительно-ласкательное для небольшого количества денег. ',
-    'MÉXICO':'• деньги вообще: feria;  • количество денег: feria – свободные деньги, marmaja – большое количество денег;  • номиналы денежных единиц (а также указание на крупную или мелкую купюру): tostón – мексиканская монета номиналом 50 сентаво. ',
-    'NICARAGUA':'• деньги вообще: сhancheros, money – взято из английского языка и адаптировано, peso;  •  количество денег: oxígeno – метафорический термин, чтобы ссылаться на «деньги», как на что-то существенное, важное, luz - деньги, что облегчают решение дел. ',
-    'PANAMA':'• деньги вообще: plata, chenchén, biyuyo, chimblín;  •  форма денег: chenchén - монеты, наличные, банкноты, biyuyo – банкнота; •   количество денег: lana – хорошее экономическое положение человека; •   номиналы денежных единиц (а также указание на крупную или мелкую купюру): palo – миллион. ',
-    'PARAGUAY':'• деньги вообще: plata, para pire (del guaraní); •  форма денег: efectivo - наличные деньги. ',
-    'PERU':'• деньги вообще: chavos, mangos, guitas, el ferro, lecas (обозначается в теме азарта), la china; •  форма денег: cash – прямое заимствование из английского языка, что означает наличные деньги, guitas – банкноты, tolete – пачки банкнот, fichas – монеты, которые относятся к сфере игр; •        номиналы денежных единиц (а также указание на крупную или мелкую купюру): los chibilines - разговорный способ обозначения монет маленького номинала, menudo – название монет низкого номинала. ',
-    'PUERTORICO':'• деньги вообще: chavos; • номиналы денежных единиц (а также указание на крупную или мелкую купюру): tolete - купюра или монета в один песо, la peseta - 25 сентаво, el vellón - 10 сентаво, la ficha - 5 сентаво, el chavo - 1 сентаво.',
-    'DOMINICANA':'• деньги вообще: cuartos (используется в народе), baro, tabla (наименование песо в народе); •   количество денег: chelitos - определенное количество денег (не много, но и необязательно, что мало); •        номиналы денежных единиц (а также указание на крупную или мелкую купюру): chele - монета в 1 цент. ',
+    'ESPAÑA':'•  деньги вообще: billete, duro/duros, cuartos / quartos, jurdel, lucas, moni / monis / monís, parné, pasta, pavos, pelas, pelucas, peluconas, perra / perras, plata, tela, verde;\n   •  форма денег: billete, cash , chatarra, efectivo, moneda, parné , pasta, pasta gansa, pavos , pelas , pelucas, peluconas, perra / perras,  perra chica/ perra gorda, plata, real, tela, verde;\n   • количество денег: bloque, calderilla, chatarra, feria, jurdel, kilo / kilos, pasta, pasta gansa, tela, verde;\n • номиналы денежных единиц (а также указание на крупную или мелкую купюру): calderilla, canario, chatarra, duro/duros, feria, jurdel, kilo / kilos, lucas, moneda, pelas, pelucas, peluconas, perra / perras, perra chica/ perra gorda, real.',
+    'GUATEMALA':'• деньги вообще: pisto, papa;\n  • форма денег: pisto - используется для обозначения банковских карт;\n •  количество денег: papa - имущество, состояние. ',
+    'HONDURAS':'• деньги вообще: pisto/pistillo, marmaja, dinerito, biyuyo;\n •  форма денег: marmaja – монеты, billete – банковская купюра;\n  • количество денег: luz – деньги, что облегчают решение дел; dinerito – уменьшительно-ласкательное для небольшого количества денег. ',
+    'MÉXICO':'• деньги вообще: feria;\n  • количество денег: feria – свободные деньги, marmaja – большое количество денег;\n  • номиналы денежных единиц (а также указание на крупную или мелкую купюру): tostón – мексиканская монета номиналом 50 сентаво. ',
+    'NICARAGUA':'• деньги вообще: сhancheros, money – взято из английского языка и адаптировано, peso;\n  •  количество денег: oxígeno – метафорический термин, чтобы ссылаться на «деньги», как на что-то существенное, важное, luz - деньги, что облегчают решение дел. ',
+    'PANAMA':'• деньги вообще: plata, chenchén, biyuyo, chimblín;\n  •  форма денег: chenchén - монеты, наличные, банкноты, biyuyo – банкнота;\n •   количество денег: lana – хорошее экономическое положение человека;\n •   номиналы денежных единиц (а также указание на крупную или мелкую купюру): palo – миллион. ',
+    'PARAGUAY':'• деньги вообще: plata, para pire (del guaraní);\n •  форма денег: efectivo - наличные деньги. ',
+    'PERU':'• деньги вообще: chavos, mangos, guitas, el ferro, lecas (обозначается в теме азарта), la china;\n •  форма денег: cash – прямое заимствование из английского языка, что означает наличные деньги, guitas – банкноты, tolete – пачки банкнот, fichas – монеты, которые относятся к сфере игр;\n •        номиналы денежных единиц (а также указание на крупную или мелкую купюру): los chibilines - разговорный способ обозначения монет маленького номинала, menudo – название монет низкого номинала. ',
+    'PUERTORICO':'• деньги вообще: chavos;\n • номиналы денежных единиц (а также указание на крупную или мелкую купюру): tolete - купюра или монета в один песо, la peseta - 25 сентаво, el vellón - 10 сентаво, la ficha - 5 сентаво, el chavo - 1 сентаво.',
+    'DOMINICANA':'• деньги вообще: cuartos (используется в народе), baro, tabla (наименование песо в народе);\n •   количество денег: chelitos - определенное количество денег (не много, но и необязательно, что мало);\n •        номиналы денежных единиц (а также указание на крупную или мелкую купюру): chele - монета в 1 цент. ',
     'SALVADOR':'• деньги вообще: pisto; morlaco – деньги на социалекте Лунфардо. ',
-    'URUGUAY':'• деньги вообще: biyuya; • форма денег: mosca – наличные деньги. ',
-    'VENEZUELA':'• деньги вообще: plata, biyuyo, cobres, muna (от английского «money»), real;  • форма денег: biyuyo (банкнота); ',
+    'URUGUAY':'• деньги вообще: biyuya;\n • форма денег: mosca – наличные деньги. ',
+    'VENEZUELA':'• деньги вообще: plata, biyuyo, cobres, muna (от английского «money»), real;\n  • форма денег: biyuyo (банкнота); ',
 }
